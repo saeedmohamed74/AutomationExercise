@@ -31,7 +31,7 @@ public class TC003_loginUserWithIncorrectEmailAndPassword {
         //Verify error 'Your email or password is incorrect!' is visible
         WebElement emailAndPasswordIsIncorrect = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/p"));
         if (emailAndPasswordIsIncorrect.isDisplayed()) {
-            System.out.println("Login to your account is visible.");
+            System.out.println("email and password is incorrect.");
         }
 
         driver.quit();

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cee8860a-6bcc-418c-b634-f2dcd0ea8653" name="Changes" comment="TC006,TC008" />
+    <list default="true" id="cee8860a-6bcc-418c-b634-f2dcd0ea8653" name="Changes" comment="TC006,TC008">
+      <change afterPath="$PROJECT_DIR$/src/TC004_logoutUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC005_registerUserWithExistingEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC007_verifyTestCasesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TC002_loginUserWithCorrectEmailAndPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TC002_loginUserWithCorrectEmailAndPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TC003_loginUserWithIncorrectEmailAndPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TC003_loginUserWithIncorrectEmailAndPassword.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +42,10 @@
     "Application.Main.executor": "Run",
     "Application.TC002_loginUserWithCorrectEmailAndPassword.executor": "Run",
     "Application.TC003_loginUserWithIncorrectEmailAndPassword.executor": "Run",
+    "Application.TC004_logoutUser.executor": "Run",
+    "Application.TC005_registerUserWithExistingEmail.executor": "Run",
     "Application.TC006_contactUsForm.executor": "Run",
+    "Application.TC007_verifyTestCasesPage.executor": "Run",
     "Application.TC008_verifyAllProductsAndProductDetailPage.executor": "Run",
     "Application.chromeBrowser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",

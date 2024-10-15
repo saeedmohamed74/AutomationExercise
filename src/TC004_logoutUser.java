@@ -5,8 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class TC002_loginUserWithCorrectEmailAndPassword {
-    public static void main(String[] args){
+public class TC004_logoutUser {
+
+
+    public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();  // Create WebDriver instance
         driver.manage().window().maximize();    //maximize the window
@@ -29,16 +31,13 @@ public class TC002_loginUserWithCorrectEmailAndPassword {
         driver.findElement(By.cssSelector("button[data-qa=\"login-button\"]")).click();
 
         //Verify that 'Logged in as username' is visible
-        WebElement  Logged_in_as_username  = driver.findElement(By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[10]/a"));
+        WebElement Logged_in_as_username = driver.findElement(By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[10]/a"));
         if (Logged_in_as_username.isDisplayed()) {
-            System.out.println("Logged in as username.");
+            System.out.println("Loggged in as username is visible.");
         }
 
-        driver.findElement(By.cssSelector("a[href=\"/delete_account\"]")).click(); //Click 'Delete Account' button
-        //Verify that 'ACCOUNT DELETED!' is visible
-        WebElement Account_Deleted = driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div/h2/b"));
-        if (Account_Deleted.isDisplayed()) {
-            System.out.println("Login to your account is visible.");
-        }
+        driver.findElement(By.cssSelector("Click 'Logout' button")).click();    //Click 'Logout' button
+
+
     }
 }
