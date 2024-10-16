@@ -36,7 +36,7 @@ public class TC004_logoutUser {
             System.out.println("Loggged in as username is visible.");
         }
 
-        driver.findElement(By.cssSelector("Click 'Logout' button")).click();    //Click 'Logout' button
+        driver.findElement(By.cssSelector("a[href=\"/logout\"]")).click();    //Click 'Logout' button
 
 
     }
